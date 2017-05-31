@@ -1,0 +1,13 @@
+D:\Sampleprojects\WebExcepBlock\DataLibrary\bin\Debug\DataLibrary.dll
+D:\Sampleprojects\WebExcepBlock\DataLibrary\bin\Debug\DataLibrary.pdb
+D:\Sampleprojects\WebExcepBlock\DataLibrary\obj\Debug\DataLibrary.csprojResolveAssemblyReference.cache
+D:\Sampleprojects\WebExcepBlock\DataLibrary\obj\Debug\DataLibrary.dll
+D:\Sampleprojects\WebExcepBlock\DataLibrary\obj\Debug\DataLibrary.pdb
+D:\Sampleprojects\WebExcepBlock\DataLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Sampleprojects\WebExcepBlock\DataLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Sampleprojects\WebExcepBlock\DataLibrary\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Sampleprojects\WebExcepBlock\DataLibrary\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Sampleprojects\WebExcepBlock\DataLibrary\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Sampleprojects\WebExcepBlock\DataLibrary\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Sampleprojects\WebExcepBlock\DataLibrary\bin\Debug\Microsoft.Practices.Unity.pdb
+D:\Sampleprojects\WebExcepBlock\DataLibrary\bin\Debug\Microsoft.Practices.Unity.Interception.pdb

@@ -1,0 +1,5 @@
+D:\Sampleprojects\WebExcepBlock\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Sampleprojects\WebExcepBlock\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Sampleprojects\WebExcepBlock\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Sampleprojects\WebExcepBlock\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Sampleprojects\WebExcepBlock\BusinessLayer\obj\Debug\BusinessLayer.pdb
