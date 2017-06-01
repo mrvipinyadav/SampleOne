@@ -1,0 +1,92 @@
+CREATE TABLE [dbo].[TaskList] (
+    [TaskId]          INT           NOT NULL,
+    [TaskName]        NVARCHAR (50) NULL,
+    [TaskType]        NVARCHAR (50) NULL,
+    [Status]          NVARCHAR (50) NULL,
+    [Department]      NVARCHAR (50) NULL,
+    [DescriptionName] NVARCHAR (50) NULL,
+    [Workbasket]      NVARCHAR (50) NULL,
+    [RecdDate]        NVARCHAR (50) NULL,
+    [RecdTime]        NVARCHAR (50) NULL,
+    [CreateDate]      NVARCHAR (50) NULL,
+    [CreateTime]      NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([TaskId] ASC)
+);
+
+CREATE TABLE [dbo].[TaskIdentifiers] (
+    [TaskId]          INT          NOT NULL,
+    [IdentifierType]  VARCHAR (50) NOT NULL,
+    [IdentifierValue] VARCHAR (50) NOT NULL
+);
+
+
+
+
+
+
+
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231231, N'Address Change', N'Address Change', N'Completed', N'CALLCENTER', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231232, N'Address Change', N'Address Change', N'Outstanding', N'CALLCENTER', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231233, N'Address Change', N'Address Change', N'Outstanding', N'SHARESVCS', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231234, N'Address Change', N'Address Change', N'Outstanding', N'CALLCENTER', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231235, N'Address Change', N'Address Change', N'Completed', N'SHARESVCS', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231236, N'Address Change', N'Address Change', N'Completed', N'CALLCENTER', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231237, N'Address Change', N'Address Change', N'Completed', N'SHARESVCS', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231238, N'Address Change', N'Address Change', N'Completed', N'CALLCENTER', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231239, N'Address Change', N'Address Change', N'Completed', N'SHARESVCS', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231240, N'Address Change', N'Address Change', N'Completed', N'SHARESVCS', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231241, N'Address Change', N'Address Change', N'Completed', N'CALLCENTER', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231560, N'Address Change', N'Address Change', N'Completed', N'CALLCENTER', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231561, N'Address Change', N'Address Change', N'Outstanding', N'CALLCENTER', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231562, N'Address Change', N'Address Change', N'Outstanding', N'SHARESVCS', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231563, N'Address Change', N'Address Change', N'Outstanding', N'CALLCENTER', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231564, N'Address Change', N'Address Change', N'Completed', N'SHARESVCS', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231565, N'Address Change', N'Address Change', N'Completed', N'CALLCENTER', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231566, N'Address Change', N'Address Change', N'Completed', N'SHARESVCS', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231567, N'Address Change', N'Address Change', N'Completed', N'CALLCENTER', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231568, N'Address Change', N'Address Change', N'Completed', N'SHARESVCS', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231569, N'Address Change', N'Address Change', N'Completed', N'SHARESVCS', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+INSERT INTO [dbo].[TaskList] ([TaskId], [TaskName], [TaskType], [Status], [Department], [DescriptionName], [Workbasket], [RecdDate], [RecdTime], [CreateDate], [CreateTime]) VALUES (1231570, N'Address Change', N'Address Change', N'Completed', N'CALLCENTER', N'Update Address', N'Frank 2310', N'06072015', N'010150', N'06072015', N'010150')
+
+
+
+
+
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231231, N'FundNbr', N'101')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231231, N'BankAccount', N'1212121333')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231231, N'ClientName', N'ABC')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231231, N'TIN', N'234232111')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231232, N'FundNbr', N'505')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231232, N'ClientName', N'XYZ')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231232, N'Phone', N'6035556323')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231500, N'Test', N'Test123')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231500, N'Test', N'ABC')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231234, N'FundNbr', N'10145')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231234, N'BankAccount', N'1212121333')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231235, N'FundNbr', N'ABC')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231235, N'TIN', N'234232111')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231235, N'BankAccount', N'2323505')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231236, N'ClientName', N'XYZ')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231236, N'BankAccount', N'6035556323')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231237, N'FundNbr', N'78123')
+INSERT INTO [dbo].[TaskIdentifiers] ([TaskId], [IdentifierType], [IdentifierValue]) VALUES (1231237, N'BankAccount', N'ABC43434')
+
+
+CREATE PROCEDURE [dbo].[GetTaskList]
+	@Status nvarchar(30),
+	@Department nvarchar(30)
+AS
+	SELECT *
+	FROM TaskList
+	--WHERE Status=@Status
+	--AND Department=@Department
+
+CREATE PROCEDURE [dbo].[GetTaskListWithIdentifiers]
+	@Status nvarchar(30),
+	@Department nvarchar(30)
+AS
+SELECT TaskList.*,TaskIdentifiers.IdentifierType, TaskIdentifiers.IdentifierValue
+FROM TaskList
+LEFT JOIN TaskIdentifiers
+ON TaskList.TaskId=TaskIdentifiers.TaskId
+ORDER BY TaskList.TaskId;
